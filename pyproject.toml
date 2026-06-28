@@ -17,14 +17,14 @@ version = "0.0.1"
 [project.entry-points."togax_frost.backend.toga_cocoa"]
 RenderCanvas = "togax_frost.cocoa.render_canvas:RenderCanvas"
 
-# [project.entry-points."togax_frost.backend.toga_gtk"]
-# RenderCanvas = "togax_frost.gtk.render_canvas:RenderCanvas"
+[project.entry-points."togax_frost.backend.toga_gtk"]
+RenderCanvas = "togax_frost.gtk.render_canvas:RenderCanvas"
 
 # [project.entry-points."togax_frost.backend.toga_iOS"]
 # RenderCanvas = "togax_frost.iOS.render_canvas:RenderCanvas"
 
-# [project.entry-points."togax_frost.backend.toga_qt"]
-# RenderCanvas = "togax_frost.qt.render_canvas:RenderCanvas"
+[project.entry-points."togax_frost.backend.toga_qt"]
+RenderCanvas = "togax_frost.qt.render_canvas:RenderCanvas"
 
 # [project.entry-points."togax_frost.backend.toga_textual"]
 # RenderCanvas = "togax_frost.textual.render_canvas:RenderCanvas"
