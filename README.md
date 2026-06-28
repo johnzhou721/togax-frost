@@ -1,10 +1,14 @@
+# The Frost Component Library
+
 @johnzhou721's custom Toga component library.
 
 This library will eventually expand to include frosted navigation bars on iOS hence the name.
 You're welcome to guess but I'm not disclosing some other reasons I named this library until
 later.
 
-# RenderCanvas
+# Class Documentation
+
+## RenderCanvas
 
 ```python
 from togax_frost import RenderCanvas
