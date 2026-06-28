@@ -32,5 +32,5 @@ RenderCanvas = "togax_frost.qt.render_canvas:RenderCanvas"
 # [project.entry-points."togax_frost.backend.toga_web"]
 # RenderCanvas = "togax_frost.web.render_canvas:RenderCanvas"
 
-# [project.entry-points."togax_frost.backend.toga_winforms"]
-# RenderCanvas = "togax_frost.winforms.render_canvas:RenderCanvas"
+[project.entry-points."togax_frost.backend.toga_winforms"]
+RenderCanvas = "togax_frost.winforms.render_canvas:RenderCanvas"
